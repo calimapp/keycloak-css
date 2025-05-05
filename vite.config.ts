@@ -10,4 +10,7 @@ export default defineConfig({
             accountThemeImplementation: "none"
         })
     ],
+    server: {
+        allowedHosts: ["5173-calimapp-keycloakcss-i5eet9o80wk.ws-eu118.gitpod.io"]
+    }
 });
