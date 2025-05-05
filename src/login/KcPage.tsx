@@ -51,23 +51,16 @@ export default function KcPage(props: { kcContext: KcContext }) {
                                 <section className={styles["star-wars"]} onClick={() => setShowCrawl(false)}>
                                     <div className={styles.crawl}>
                                     <div className="title">
-                                        <p>Episode IV</p>
-                                        <h1>A New Hope</h1>
+                                        <h1 className={styles.title}>Galileo GMS</h1>
+                                        <p>Episode II</p>
                                     </div>
                                     <p>
-                                        It is a period of civil war. Rebel spaceships, striking from a
-                                        hidden base, have won their first victory against the evil
-                                        Galactic Empire.
+                                        It is a period of civil war. At the end of the iteration the Emporor Dark Chazal
+                                        is asking each team to deliver the TAG.
                                     </p>
                                     <p>
-                                        During the battle, Rebel spies managed to steal secret plans to
-                                        the Empire’s ultimate weapon, the DEATH STAR, an armored space
-                                        station with enough power to destroy an entire planet.
-                                    </p>
-                                    <p>
-                                        Pursued by the Empire’s sinister agents, Princess Leia races
-                                        home aboard her starship, custodian of the stolen plans that can
-                                        save her people and restore freedom to the galaxy….
+                                        But rebel forces made up of Platform and Rtgw continue to fight
+                                        against the elements.
                                     </p>
                                     </div>
                                 </section>
